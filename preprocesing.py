@@ -69,9 +69,9 @@ def deskew(im):
 
 def create_jpg():
     arr = os.listdir()
-    index=11
+    index=19
     for file in arr:
-        if file.split(".")[-1]=="pdf":            
+        if file.split(".")[-1]=="pdf" or file.split(".")[-1]=="PDF":            
             doc = fitz.open(file)
             number=doc.pageCount
             for i in range(number):
@@ -79,7 +79,7 @@ def create_jpg():
                 pix = page.getPixmap(matrix=fitz.Matrix(300/72, 300/72))
                 output = "OUTPUT/facture_"+str(index+i)+".jpg"
                 pix.writePNG(output)
-            index+=1    
+                index+=1    
             print(str(file)+" : DONE")            
 
 
