@@ -1,7 +1,7 @@
 <annotation>
 	<folder>FINAL-PREPARED</folder>
 	<filename>facture_29.jpg</filename>
-	<path>D:\tkminek_local\PYTHON\LABEL_DATA\Label_data\FINAL-PREPARED\facture_29.jpg</path>
+	<path>D:\PYTHON\PROJECTS\Label_data\Label_data\FINAL-PREPARED\facture_29.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -81,6 +81,102 @@
 			<ymin>285</ymin>
 			<xmax>2854</xmax>
 			<ymax>388</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bank_vs</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1258</xmin>
+			<ymin>117</ymin>
+			<xmax>2842</xmax>
+			<ymax>221</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>odberatel_ico</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1515</xmin>
+			<ymin>1137</ymin>
+			<xmax>1869</xmax>
+			<ymax>1221</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>dodavatel_ico</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>331</xmin>
+			<ymin>706</ymin>
+			<xmax>788</xmax>
+			<ymax>771</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>bank_cbu</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>329</xmin>
+			<ymin>1225</ymin>
+			<xmax>919</xmax>
+			<ymax>1290</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>datumy_s</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>2383</xmin>
+			<ymin>1254</ymin>
+			<xmax>2817</xmax>
+			<ymax>1413</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>datumy_zp</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1237</xmin>
+			<ymin>1290</ymin>
+			<xmax>2127</xmax>
+			<ymax>1360</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>datumy_v</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1237</xmin>
+			<ymin>1238</ymin>
+			<xmax>2127</xmax>
+			<ymax>1287</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>zbozi_suma</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>508</xmin>
+			<ymin>2985</ymin>
+			<xmax>2817</xmax>
+			<ymax>3104</ymax>
 		</bndbox>
 	</object>
 </annotation>
